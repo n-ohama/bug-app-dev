@@ -19,11 +19,11 @@ export const Header = () => {
 
   return (
     <Box p={"8px"} bgColor={"teal"} textColor="white">
-      <Flex justifyContent={"space-between"}>
+      <Flex justifyContent={"space-between"} py={"8px"}>
         <HamburgerIcon boxSize={6} />
         <Flex>
           <ChevronLeftIcon boxSize={6} />
-          <Text>2023年3月</Text>
+          <Text fontSize={"18px"}>2023年3月</Text>
           <ChevronRightIcon boxSize={6} />
         </Flex>
         <CalendarIcon boxSize={6} />
