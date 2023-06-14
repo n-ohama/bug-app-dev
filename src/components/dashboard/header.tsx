@@ -38,7 +38,7 @@ export const Header = () => {
       </Flex>
 
       <Box textAlign={"center"} py={"4px"}>
-        <Text fontSize={"18px"}>3月26日</Text>
+        <Text fontSize={"18px"}>3月27日</Text>
       </Box>
     </Box>
   );
